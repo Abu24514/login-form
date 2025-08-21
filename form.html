@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Responsive design ke liye meta tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LogIn Validation</title>
+
+    <!-- External CSS file link -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Login Form Start -->
+      <form id="loginForm">
+        <h2>Login</h2>
+
+        <!-- Email Input Field -->
+        <label for="email">Email :</label>
+        <input type="text" id="email" placeholder="Enter your email" autocomplete="off"/>
+        <!-- Error message show hone ke liye -->
+        <small class="error" id="emailError"></small>
+
+        <!-- Password Input Field -->
+        <label for="password">Password :</label>
+        <input
+          type="password"
+          id="password"
+          placeholder="Enter your password"
+        />
+        <!-- Error message show hone ke liye -->
+        <small class="error" id="passwordError"></small>
+
+        <!-- Submit Button -->
+        <input type="submit" id="btn" value="LogIn" />
+
+        <!-- Result message (success ke case me) -->
+        <div class="result"></div>
+      </form>
+      <!-- Login Form End -->
+    </div>
+
+    <!-- JavaScript file link -->
+    <script src="app.js"></script>
+  </body>
+</html>
