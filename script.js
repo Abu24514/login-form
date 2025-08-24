@@ -43,7 +43,7 @@ form.addEventListener("submit", (evt) => {
 
   // agar password galat hai to error show karo
   if (!passwordAns) {
-    passEr.textContent = "Invalid password at least 1 lowercase, 1 uppercase, 1 digit, 1 special char and  minimum length must be 8";
+    passEr.textContent = "at least 1 lowercase, 1 uppercase, 1 digit, 1 special char and  minimum length must be 8";
     isValid = false;
   }
 
