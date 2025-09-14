@@ -22,5 +22,5 @@ A simple and responsive **Login Form** built with **HTML, CSS, and JavaScript** 
 ---
 
 ## 📸 Screenshots
-  ![alt text](image.webp)
+  ![alt text](image.png)
 

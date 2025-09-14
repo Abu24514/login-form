@@ -43,7 +43,7 @@ form.addEventListener("submit", (evt) => {
 
   // agar password galat hai to error show karo
   if (!passwordAns) {
-    passEr.textContent = "at least 1 lowercase, 1 uppercase, 1 digit, 1 special char and  minimum length must be 8";
+    passEr.textContent = "Invalid Password, use strong possword";
     isValid = false;
   }
 
@@ -54,11 +54,6 @@ form.addEventListener("submit", (evt) => {
 
     // fields reset karte hain taaki user ko fresh form mile
     form.reset();
-
-    // optional: success msg ko 2s ke baad fade out karna
-    // setTimeout(() => {
-    //   // result.style.opacity = "0"; // fade effect
-    // }, 2000);
 
     // 3s ke baad msg ko completely hide + opacity reset
     setTimeout(() => {

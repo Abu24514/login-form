@@ -23,14 +23,12 @@ body {
 
 /* Form styling */
 form {
-  background-image: url(https://images.unsplash.com/vector-1752217167868-40771826f10f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxpbGx1c3RyYXRpb25zLWZlZWR8NDA2fHx8ZW58MHx8fHx8);
-  object-fit: cover;
+  background: linear-gradient(to top, rgb(255, 255, 255), #f5996365);
   padding: 20px;
   border-radius: 12px; /* rounded corners */
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* shadow for depth */
   transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.3s ease;
 }
-
 
 form:hover {
   transform: translateY(-2px);
@@ -48,7 +46,7 @@ h2 {
 label {
   display: block;
   font-weight: bold;
-  color: #d7d7d7;
+  color: #212121;
   margin-top: 0.2rem;
 }
 
@@ -58,6 +56,7 @@ input[type="password"] {
   width: 100%;
   padding: 10px;
   margin-top: 5px;
+  font-size: 1.1rem;
   border: 2px solid #ccc;
   border-radius: 8px;
   transition: border 0.3s, box-shadow 0.3s; /* smooth hover/focus effect */
@@ -65,14 +64,14 @@ input[type="password"] {
 
 /* Focus effect jab input select hota hai */
 input:focus {
-  border-bottom: 2px solid #121414;
+  border-bottom: 2px solid #141414;
   outline: none;
 }
 
 /* Error messages */
 .error {
-  color: rgba(192, 16, 16, 0.942);
-  font-size: 0.85rem;
+  color: rgba(101, 59, 59, 0.992);
+  font-size: 0.89rem;
   margin-top: 4px;
   font-weight: 500;
 }
@@ -94,15 +93,13 @@ input:focus {
 
 /* Button hover effect */
 #btn:hover {
-  background: #d7d7d7;
+  background: linear-gradient(to top, rgb(60, 37, 9), #f5996365);
   transform: translateY(-2px);
-  color: #000000;
 }
 .result {
   margin-top: 10px;
   text-align: center;
-  color: #e4e4e4;
+  color: #0b5f24;
   font-size: 0.96rem;
-  font-weight:600;
+  font-weight: 600;
 }
-
